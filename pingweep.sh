@@ -1,4 +1,10 @@
 #!/bin/bash
+START="\e[0;49;91m"
+END="\e[0m"
+
+
+#Banner
+echo -e "${START}
            _                                                      
           (_)                                                     
  _ .--.   __   _ .--.   .--./) _   _   __  .---.  .---.  _ .--.   
@@ -6,7 +12,9 @@
  | \__/ | | |  | | | | \ \._// \ \/\ \/ / | \__.,| \__., | \__/ | 
  | ;.__/ [___][___||__].',__`   \__/\__/   '.__.' '.__.' | ;.__/  
 [__|                  ( ( __))                          [__|      
+                        @johnthebug
 
+${END}
 
 read -p "Enter ip address to be ping (ex: 192.168.54) : " ips
 read -p "Enter the output file name:"  out
