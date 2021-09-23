@@ -4,7 +4,7 @@ END="\e[0m"
 
 
 #Banner
-echo -e "                                          
+echo -e "${START}                                          
       (_)                                   
  ____  _ ____   ____ _ _ _  ____ ____ ____  
 |  _ \| |  _ \ / _  | | | |/ _  ) _  )  _ \ 
@@ -13,7 +13,7 @@ echo -e "
 |_|           (_____|                |_|    
                       @johnthebug @kaipullas3c
                  
-"
+${END}"
 
 read -p "Enter ip address to be ping (ex: 192.168.54) : " ips
 read -p "Enter the output file name:"  out
