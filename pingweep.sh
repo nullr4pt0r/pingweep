@@ -11,7 +11,8 @@ echo -e "
 | | | | | | | ( ( | | | | ( (/ ( (/ /| | | |
 | ||_/|_|_| |_|\_|| |\____|\____)____) ||_/ 
 |_|           (_____|                |_|    
-
+                      @johnthebug @kaipullas3c
+                 
 "
 
 read -p "Enter ip address to be ping (ex: 192.168.54) : " ips
